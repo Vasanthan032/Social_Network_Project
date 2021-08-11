@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block body_block %}
+<!-- <h1>Welcome to Home Page!!</h1> -->
+<div class="container container__item landing-page-container">
+  <div class="content__wrapper">
+    <header class="header">
+
+          <h1 class="heading header__item">Thanks for Logged in. Come back soon!</h1>
+        </header>
+
+    <p class="coords">N 49° 16' 35.173" / W 0° 42' 11.30"</p>
+
+        <div class="ellipses-container">
+
+          <h2 class="greeting">SeeYou</h2>
+
+          <div class="ellipses ellipses__outer--thin">
+
+            <div class="ellipses ellipses__orbit"></div>
+
+          </div>
+
+          <div class="ellipses ellipses__outer--thick"></div>
+        </div>
+
+        <div class="scroller">
+          <p class="page-title">home</p>
+
+          <div class="timeline">
+            <span class="timeline__unit"></span>
+            <span class="timeline__unit timeline__unit--active"></span>
+            <span class="timeline__unit"></span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+{% endblock %}
